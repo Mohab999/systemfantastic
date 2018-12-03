@@ -377,12 +377,6 @@ client.on('message', message => {
   ** -embed | يكرر الي تقولو بشكل حلو**:small_blue_diamond: 
 
   ** -emoji <any things> | لتحويل اي كلمه تقولها الي ايموجي**:small_orange_diamond: 
-
-  ** -inv | لدعوة البوت الى سيرفرك**:black_circle: 
-
-  ** -support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
-  
-  ** -contact | ارسال اقتراح او لمراسلة صاحب البوت**
   
 **  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======  **`)
      message.author.sendEmbed(embed)
@@ -449,7 +443,7 @@ client.on('message', message => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=517327152740302850&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=519139571456409635&permissions=8&scope=bot')
  .setDescription(`**اذا كنت تريد الاوامر العامة اظغط الريكشن** 🌏 \n**اذا كنت تريد الاوامر الادارية اظغط الريكشن**🔧 \n**اذا كنت تريد اوامر الالعاب**🎲 \n**اذا كنت تريد اوامر الاغاني **🎶\n              **وشكرا لمستخدمين البوت**`)  
  
  .setTimestamp()
@@ -474,7 +468,7 @@ aa.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
           .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=517327152740302850&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=519139571456409635&permissions=8&scope=bot')
 .setDescription(`        ***__الاوامر العامه__*** **\n${prefix}**allbots/لعرض جميع البوتات الي بالسيرفر』**\n${prefix}**server/يعرض لك معلومات عن السيرفر』**\n${prefix}**bot/يعرض لك كل معلومات البوت』**\n${prefix}**credit/يعرض لك الكردت حقك』**\n${prefix}**daily/لاخذ يوميتك من الكردت』**\n${prefix}**profile/لعرض البروفايل الخاص بك』**\n${prefix}**setwelcomer <name chat> /لتفعيل الترحيب بصوره 』**\n${prefix}**invites/ يعرض لك  عدد انفايتاتك بالسيرفر 』**\n${prefix}**invite-codes/يعرض لك روابط الانفايتات حكك في السيرفر 』**\n${prefix}**cal/اله حاسبة**\n${prefix}**trans <language> <any thing>/يترجم لك الي تبيه من اي لغة』**\n${prefix}**short/يختصر لك رابط كبير الى رابط صغير』**\n${prefix}**tag/يكتب لك الكلمة بشكل جميل وكبير』**\n${prefix}**google/للبحث في قوقل عن طريق الدسكورد』**\n${prefix}**perms/يعرض لك برمشناتك بالسيرفر』**\n${prefix}**za5/يزخرف لك كلمة او جملة』**\n${prefix}**rooms/يعرض لك كل الرومات الي بالسيرفر مع عددها』**\n${prefix}**roles/يعرض لك كل الرانكات بالسيرفر بشكل جميل』**\n${prefix}**say/يكرر الكلام الي تكتبو』**\n${prefix}**image/صورة السيرفر』**\n${prefix}**members/��عرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص』**\n${prefix}**id/معلومات عنك』**\n${prefix}**bans / عدد الاشخاص المبندة 』**\n${prefix}**avatar/صورتك او صورة الي تمنشنو』**\n${prefix}**embed/يكرر الي تقولو بشكل حلو』**\n${prefix}**discrim/كود يضهر لك الاشخاص نفس تاقك』**\n${prefix}**emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي』**\n${prefix}**inv/لدعوة البوت الى سيرفرك』**\n${prefix}**support/سيرفر الدعم』**\n${prefix}**contact/ارسال اقتراح او لمراسلة صاحب البوت』`)
  
  .setTimestamp()
@@ -488,7 +482,7 @@ mm.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=517327152740302850&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=519139571456409635&permissions=8&scope=bot')
 .setDescription(`        ***__الاوامر الاداريه__*** **\n${prefix}**move @user /  لسحب الشخص الى روومك』**\n${prefix}**bc / رسالة جماعية الى كل اعضاء السيرفر』**\n${prefix}**role @user <rank> / لأعطاء رتبة لعضو معين』**\n${prefix}**roleremove @user <rank> / لازالة الرتبة من شخص معين』**\n${prefix}**role all <rank> / لأعطاء رتبة للجميع』**\n${prefix}**role humans <rank> / لأعطاء رتبة للاشخاص فقط』**\n${prefix}**role bots <rank> / لأعطاء رتبة لجميع البوتات』**\n${prefix}**hchannel / اخفاء الشات』**\n${prefix}**schannel / اضهار الشات المخفية』**\n${prefix}**clr <numbr> / مسح الشات بعدد』**\n${prefix}**clear / مسح الشات』**\n${prefix}**mute @user <reason> / اعطاء العضو ميوت لازم رتبة <Muted>』**\n${prefix}**unmute @user / لفك الميوت عن الشخص 』**\n${prefix}**kick @user <reason> / طرد الشخص من السيرفر』**\n${prefix}**ban @user <reason> / حضر الشخص من السيرفر』**\n${prefix}**mutechannel / تقفيل الشات』**\n${prefix}**unmutechannel / فتح الشات』**\n${prefix}**dc / مسح كل الرومات』**\n${prefix}**dr / <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات』**\n${prefix}**ct <name> / انشاء شات』**\n${prefix}**cv <name> / انشاء رووم فويس』**\n${prefix}**delet <name> / مسح الشات او الرووم فويس』**\n${prefix}**ccolors <number> / ينشا لك الوان مع كم الوان تبي』`)  
  
 .setTimestamp()
@@ -501,7 +495,7 @@ cc.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=517327152740302850&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=519139571456409635&permissions=8&scope=bot')
 .setDescription(`        ***__اوامر اغاني__*** **\n${prefix}**play / لتشغيل أغنية برآبط أو بأسم』**\n${prefix}**skip / لتجآوز الأغنية الحآلية』**\n${prefix}**pause / إيقآف الأغنية مؤقتا』**\n${prefix}**resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتا』**\n${prefix}**vol / لتغيير درجة الصوت 100 - 0』**\n**-stop / لإخرآج البوت من الروم』**\n${prefix}**np / لمعرفة الأغنية المشغلة حآليا』**\n**-queue / لمعرفة قآئمة التشغيل』`)
  
  
@@ -515,7 +509,7 @@ vv.on("collect", r => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=517327152740302850&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/api/oauth2/authorize?client_id=519139571456409635&permissions=8&scope=bot')
 .setDescription(`   ***__اوامر العاب__*** **\n${prefix}**rps / حجر ورقة مقص**\n${prefix}**speed / اسرع كتابة』**\n${prefix}**quas / اسئلة عامة』**\n${prefix}**نكت / نكت 』**\n${prefix}**لعبة فكك / فكك』**\n${prefix}**عواصم عشوائي/عواصم』**\n${prefix}**لعبة كت تويت / كت تويت』**\n${prefix}**roll <number> / قرعة』**\n${prefix}**لو خيروك بطريقة حلوة / لو خيروك』**\n${prefix}**لعبة مريم / مريم』**\n${prefix}**فوائد ونصائح  / هل تعلم』**\n${prefix}**يعطيك عقابات قاسية / عقاب 』`)
  
  
@@ -581,7 +575,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("Super Bot")
+					.setFooter("Fantastic Shop")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
@@ -847,7 +841,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('Super BOT' ,
+.addField('Fantastic Shop' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -1116,7 +1110,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO Super Bot`` ')
+            .setTitle('``INFO Fantastic Shop`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -1126,7 +1120,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | LEGEND_YT#4537 ')
+			      .setFooter('By | 𝕊ℝ | 𝕄𝕆ℍ𝔸𝔹#3066 ')
     })
 }
 });
@@ -1322,7 +1316,7 @@ function getValue(key, array) {
     if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
   if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
     let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
-    let copy = "Super Bot";
+    let copy = "Fantastic Shop";
     let request = `Requested By ${message.author.username}`;
     if (!args) return message.reply('**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**');message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟ \nمحتوى البرودكاست:** \` ${args}\``).then(msg => {
     msg.react('✅')
@@ -1713,7 +1707,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Marley','-help'];	
+    var setGame = ['Fantastic Shop','-help'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2346,7 +2340,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("396958215377780747").send(
+client.users.get("516226504066072588").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2500,7 +2494,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=517327152740302850&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=519139571456409635&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/attachments/516605361537548288/516620444036497409/fd352929b7e4c974.png")        
      message.channel.sendEmbed(embed);
        }
@@ -2836,7 +2830,7 @@ message.channel.stopTyping()
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/TZ3dcyC**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/mWZWTY**")
      
      
   message.channel.sendEmbed(embed);
@@ -2969,7 +2963,7 @@ Server owner: __${guild.owner}__**`)
 }); 
 			      
 const sWlc = {}
-const premium = ['396958215377780747', '', '', '']
+const premium = ['516226504066072588', '', '', '']
 client.on('message', message => {
 var prefix = "-";
 if(message.channel.type === "dm") return;
